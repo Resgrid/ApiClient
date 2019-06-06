@@ -5,8 +5,8 @@ A cross platform api client library built using Microsoft .Net Core Standard tha
 
 *********
 
-[![Build status](https://ci.appveyor.com/api/projects/status/github/resgrid/relay?svg=true)](https://ci.appveyor.com/api/projects/status/github/resgrid/relay)
- 
+[![Build status](https://ci.appveyor.com/api/projects/status/github/resgrid/apiclient?svg=true)](https://ci.appveyor.com/api/projects/status/github/resgrid/apiclient)
+[![ResgridApiClient](https://img.shields.io/nuget/v/Resgrid.ApiClient.svg)](https://www.nuget.org/packages/Resgrid.ApiClient/)
 
 About Resgrid
 -------------
