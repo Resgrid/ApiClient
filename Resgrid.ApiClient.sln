@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resgrid.ApiClient", "Resgrid.ApiClient\Resgrid.ApiClient.csproj", "{CE0599A2-BA5F-4360-915D-DF430637B4ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE0599A2-BA5F-4360-915D-DF430637B4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0599A2-BA5F-4360-915D-DF430637B4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0599A2-BA5F-4360-915D-DF430637B4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0599A2-BA5F-4360-915D-DF430637B4ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C5B962B-88EB-4720-B0BF-3F5D39144905}
+	EndGlobalSection
+EndGlobal

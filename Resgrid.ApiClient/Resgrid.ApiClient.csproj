@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Resgrid, LLC</Authors>
+    <Copyright>2019 Resgrid, LLC</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <Description>Client to interact with the Resgrid API to create calls and dispatch personnel. Resgrid is a complete open source solution for first responders, emergency response, fire departments, ems, search and rescue, disaster relief and much more.</Description>
+    <PackageProjectUrl>https://github.com/Resgrid/ApiClient</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Resgrid/ApiClient</RepositoryUrl>
+    <PackageTags>Resgrid, Api, Client, Fire, SAR, CAD, Dispatch, DR, Volunteer</PackageTags>
+    <PackageReleaseNotes>Inital release, has support to create and dispatch calls and utilize the health endpoint.</PackageReleaseNotes>
+    <RepositoryType>Github</RepositoryType>
+    <PackageIconUrl>https://resgrid.com/images/resgrid-icon-pinpoint.png</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>
