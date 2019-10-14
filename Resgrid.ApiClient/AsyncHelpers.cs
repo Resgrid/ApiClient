@@ -112,7 +112,7 @@ namespace Resgrid.Providers.ApiClient
 					if (task != null)
 					{
 						task.Item1(task.Item2);
-						if (InnerException != null) // the method threw an exeption
+						if (InnerException != null) // the method threw an exception
 						{
 							throw new AggregateException("AsyncHelpers.Run method threw an exception.", InnerException);
 						}

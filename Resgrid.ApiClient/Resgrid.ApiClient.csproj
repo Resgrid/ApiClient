@@ -15,6 +15,7 @@
     <PackageReleaseNotes>Inital release, has support to create and dispatch calls and utilize the health endpoint.</PackageReleaseNotes>
     <RepositoryType>Github</RepositoryType>
     <PackageIconUrl>https://resgrid.com/images/resgrid-icon-pinpoint.png</PackageIconUrl>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
