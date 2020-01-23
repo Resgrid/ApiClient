@@ -19,6 +19,44 @@ Resgrid is a software as a service (SaaS) logistics, management and communicatio
 
 ## Installation ##
 
+Using the [.NET Core command-line interface (CLI) tools][dotnet-core-cli-tools]:
+
+```sh
+dotnet add package Resgrid.ApiClient
+```
+
+Using the [NuGet Command Line Interface (CLI)][nuget-cli]:
+
+```sh
+nuget install Resgrid.ApiClient
+```
+
+Using the [Package Manager Console][package-manager-console]:
+
+```powershell
+Install-Package Resgrid.ApiClient
+```
+
+From within Visual Studio:
+
+1. Open the Solution Explorer.
+2. Right-click on a project within your solution.
+3. Click on *Manage NuGet Packages...*
+4. Click on the *Browse* tab and search for "Resgrid.ApiClient".
+5. Click on the Resgrid.ApiClient package, select the appropriate version in the
+   right-tab and click *Install*.
+
+## Usage
+
+### Initial Setup
+
+To begin using the ApiClient you first need to call the Init() function with the base url of the api and your username and password for the account making the requests.
+
+```c#
+ResgridV3ApiClient.Init("https://api.resgrid.com", "YOUR USERNAME", "YOUR PASSWORD");
+```
+
+Once you've Initialized the ApiClient you can call the Apis you want and they will handle the underlying Auth()'ing for each request.
 
 ## Notes ##
 
