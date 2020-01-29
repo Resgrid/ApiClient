@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Resgrid.ApiClient.V3.Models
 {
-    public class Call
-    {
+	public class Call
+	{
 		public int CallId { get; set; }
 		public string Number { get; set; }
 		public int DepartmentId { get; set; }
@@ -30,19 +30,19 @@ namespace Resgrid.ApiClient.V3.Models
 		public int DispatchCount { get; set; }
 		public DateTime? LastDispatchedOn { get; set; }
 		public string SourceIdentifier { get; set; }
-		//public ICollection<CallDispatch> Dispatches { get; set; }
+		public ICollection<CallDispatch> Dispatches { get; set; }
 		public ICollection<CallAttachment> Attachments { get; set; }
 		//public ICollection<CallNote> CallNotes { get; set; }
 		public string W3W { get; set; }
 		public ICollection<CallDispatchGroup> GroupDispatches { get; set; }
-		//public ICollection<CallDispatchUnit> UnitDispatches { get; set; }
-		//public ICollection<CallDispatchRole> RoleDispatches { get; set; }
+		public ICollection<CallDispatchUnit> UnitDispatches { get; set; }
+		public ICollection<CallDispatchRole> RoleDispatches { get; set; }
 		public string ContactName { get; set; }
 		public string ContactNumber { get; set; }
-	    public bool Public { get; set; }
-	    public string ExternalIdentifier { get; set; }
+		public bool Public { get; set; }
+		public string ExternalIdentifier { get; set; }
 		public string ReferenceNumber { get; set; }
 		public List<string> GroupCodesToDispatch { get; set; }
 		public bool AllCall { get; set; }
-    }
+	}
 }

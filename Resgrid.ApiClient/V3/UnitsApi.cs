@@ -10,11 +10,11 @@ namespace Resgrid.ApiClient.V3
 	public class UnitsApi
 	{
 		/// <summary>
-		/// Will get basic, top level, information about a department in the Resgrid system
+		/// Will get all the units for a department
 		/// </summary>
 		/// <param name="departmentId">Non-negative DepartmentId to get</param>
-		/// <returns>A list populated with the department data object. Depending on the departmentId passed in could also be BadRequest or Unauthorized http status codes.</returns>
-		public static async Task<List<Unit>> Get(int departmentId)
+		/// <returns>A list populated with the units for a department. Depending on the departmentId passed in could also be BadRequest or Unauthorized http status codes.</returns>
+		public static async Task<List<Unit>> GetUnitsForDepartment(int departmentId)
 		{
 			return await ResgridV3ApiClient.Get<List<Unit>>($"Units/GetUnitsForDepartment?departmentId={departmentId}");
 		}

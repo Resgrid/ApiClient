@@ -45,6 +45,11 @@ From within Visual Studio:
 4. Click on the *Browse* tab and search for "Resgrid.ApiClient".
 5. Click on the Resgrid.ApiClient package, select the appropriate version in the
    right-tab and click *Install*.
+   
+## Documentation
+
+You can view the Resgrid Api Documentation at [https://api.resgrid.com](https://api.resgrid.com/Help)
+
 
 ## Usage
 

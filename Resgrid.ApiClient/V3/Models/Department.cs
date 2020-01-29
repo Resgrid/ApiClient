@@ -64,7 +64,7 @@ namespace Resgrid.ApiClient.V3.Models
 		public List<string> AdminUsers { get; set; }
 
 		/// <summary>
-		/// List of UserId's for all members in the Deaprtment
+		/// List of UserId's for all members in the Department
 		/// </summary>
 		public List<string> Members { get; set; }
 	}
